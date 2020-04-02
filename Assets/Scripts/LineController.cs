@@ -52,11 +52,7 @@ public class LineController : MonoBehaviour {
             lineLoft.pathLength = alpha;
             if (Input.touchCount > 0 || Input.GetMouseButton (0)) {
                 alpha += lineSpeed * Time.deltaTime;
-                /*Touch touch = Input.GetTouch (0);
-                print ("touched");
-                if (touch.phase == TouchPhase.Moved) {
-                    Vector2 pos = touch.position;
-                }*/
+                
             }
         }
     }
